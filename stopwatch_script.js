@@ -1,12 +1,14 @@
-var hr = 0;
-var min = 0;
-var sec = 0;
+let hr = 0;
+let min = 0;
+let sec = 0;
 
-var timer = false;
+let timer = false;
 
 function start(){
+    if(timer == false){
     timer = true;
     stopwatch();
+    }
 }
 function stop(){
     timer = false;
